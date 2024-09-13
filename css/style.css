@@ -2222,4 +2222,12 @@ input[type=submit] {
   .block__text {
      width: 130px;
   }
+  @keyframes move-right {
+   from {left: 0px;}
+   to {left: calc(-120%);}
+ }
+ @keyframes move-left {
+   from {left: 0px;}
+   to {left: 120%;}
+ }
 }
