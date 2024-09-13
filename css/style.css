@@ -378,7 +378,7 @@ input::-webkit-input-placeholder {
 }
 @keyframes move-right {
   from {left: 0px;}
-  to {left: calc(-60%);}
+  to {left: calc(-64%);}
 }
 
 .transition-right {
@@ -388,7 +388,7 @@ input::-webkit-input-placeholder {
 
 @keyframes move-left {
   from {left: 0px;}
-  to {left: 60%;}
+  to {left: 64%;}
 }
 
 .transition-left {
@@ -948,7 +948,14 @@ input[type=submit] {
      width: 200px;
      height: 680px;
    }
-
+   @keyframes move-right {
+      from {left: 0px;}
+      to {left: calc(-44%);}
+    }
+   @keyframes move-left {
+      from {left: 0px;}
+      to {left: 44%;}
+    }
    .btn-right {
      width: 200px;
      height: 680px;
@@ -2008,7 +2015,7 @@ input[type=submit] {
      width: 2010px;
      height: 210px;
      left: -1%;
-     gap: 3px;
+     gap: 30px;
      /* margin-left: 0; */
   }
   @keyframes move-right {
