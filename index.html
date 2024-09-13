@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Magra&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="assets/icon/Vector1.ico" />
+    <title>Travel</title>
+  </head>
+
+  <body>
+    <div class="site-container">
+      <div class="status-bar">
+        <div class="left-side">
+          <div class="status-bar__time">
+            <p class="time">9:41</p>
+          </div>
+        </div>
+        <div class="notch"></div>
+        <div class="right-side">
+          <div class="mobile-signal">
+            <img
+              src="./assets/icon/Mobile-Signal.svg"
+              class="vector-image"
+              alt="mobile icon"
+            />
+          </div>
+          <div class="wifi-signal">
+            <img
+              src="./assets/icon/Wifi.svg"
+              class="vector-image"
+              alt="wifi icon"
+            />
+          </div>
+          <div class="battary-signal">
+            <img
+              src="./assets/icon/battery_icon.svg"
+              class="vector-image battery_icon"
+              alt="battary icon"
+            />
+          </div>
+        </div>
+        <div class="status-bar__restungle"></div>
+      </div>
+      <header class="header">
+        <div class="logo">
+          <a href="#" class="logo-link">
+            <img
+              src="assets/icon/Vector.svg"
+              alt="logotype"
+              class="logo-image"
+            />
+            <p class="logo-title">Travel Portal</p>
+          </a>
+        </div>
+        <div action="#" class="navigation__modal">
+          <div class="navigation__inner">
+            <div class="menu-icon__modal">
+              <span></span>
+            </div>
+            <ul class="nav-list__modal">
+              <li class="nav-list__item">
+                <a data-goto=".preview" href="#preview" class="nav-list__link">
+                  How It Works</a
+                >
+              </li>
+              <li class="nav-list__item">
+                <a data-goto=".steps" href="#steps" class="nav-list__link">
+                  Plan Your Trip</a
+                >
+              </li>
+              <li class="nav-list__item">
+                <a
+                  data-goto=".destinations"
+                  href="#destinations"
+                  class="nav-list__link"
+                  >Destinations</a
+                >
+              </li>
+              <li class="nav-list__item">
+                <a data-goto=".stories" href="#stories" class="nav-list__link">
+                  Travel Stories</a
+                >
+              </li>
+              <li class="nav-list__item">
+                <a href="#" class="nav-list__link login"> Account</a>
+              </li>
+              <li class="nav-list__item">
+                <a
+                  data-goto=".footer"
+                  href="#social-block"
+                  class="nav-list__link"
+                >
+                  Social Media</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <nav class="navigation">
+          <ul class="nav-list">
+            <li class="nav-list__item">
+              <a data-goto=".preview" href="#preview" class="nav-list__link">
+                How It Works</a
+              >
+            </li>
+            <li class="nav-list__item">
+              <a data-goto=".steps" href="#steps" class="nav-list__link">
+                Plan Your Trip</a
+              >
+            </li>
+            <li class="nav-list__item">
+              <a
+                data-goto=".destinations"
+                href="#destinations"
+                class="nav-list__link"
+                >Destinations</a
+              >
+            </li>
+            <li class="nav-list__item">
+              <a data-goto=".stories" href="#stories" class="nav-list__link">
+                Travel Stories</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <button class="header-button box-shadow button">
+          <p class="button-text">Login</p>
+        </button>
+        <div class="header-restungle"></div>
+        <div class="menu__icon">
+          <span></span>
+        </div>
+      </header>
+      <main class="main">
+        <section class="preview">
+          <div class="preview-block">
+            <h1 class="preview__title" id="preview">
+              Explore the beauty of the World
+            </h1>
+            <p class="preview__subtitle">
+              Receive personalized recommendations for countries, hotels,
+              activities and more
+            </p>
+            <div class="input__block">
+              <input
+                type="text"
+                class="preview__input"
+                placeholder="What would you like to do?"
+              />
+              <button type="button" class="input__button box-shadow button">
+                <p class="button-text">Start Planning</p>
+              </button>
+            </div>
+            <div class="preview-restungle"></div>
+          </div>
+        </section>
+        <section class="steps">
+          <div class="steps-block">
+            <h2 class="block__title" id="steps">3 STEPS TO THE PERFECT TRIP</h2>
+            <div class="steps-block__list">
+              <div class="steps-block__item">
+                <img
+                  src="assets/icon/Frame28.svg"
+                  alt="icon"
+                  class="steps-block__item_img box-shadow"
+                />
+                <h3 class="steps-block__item_title title-left">
+                  Tell us what you want to do
+                </h3>
+              </div>
+              <div class="steps-block__item">
+                <img
+                  src="assets/icon/Frame11.svg"
+                  alt="icon"
+                  class="steps-block__item_img box-shadow"
+                />
+                <h3 class="steps-block__item_title">
+                  Share us preferable dates
+                </h3>
+              </div>
+              <div class="steps-block__item">
+                <img
+                  src="assets/icon/Frame12.svg"
+                  alt="icon"
+                  class="steps-block__item_img box-shadow"
+                />
+                <h3 class="steps-block__item_title title-right">
+                  We will give you recommendations
+                </h3>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="destinations" id="destinations">
+          <div class="destinations-block">
+            <h2 class="block__title">POPULAR DESTINATIONS</h2>
+            <div class="wrapper">
+              <div class="btn btn-left" id="button-left"></div>
+              <div class="slider-container">
+                <div class="slider-line" id="slider-line">
+                  <div class="slider__item" id="item-right">
+                    <img
+                      src="./assets/images/Rectangle25.jpg"
+                      alt="#"
+                      class="slider__image"
+                      id="3"
+                    />
+                    <span class="slider__title">USA</span>
+                  </div>
+                  <div class="slider__item" id="item-left">
+                    <img
+                      src="./assets/images/Rectangle23.jpg"
+                      alt="#"
+                      class="slider__image"
+                      id="1"
+                    />
+                    <span class="slider__title">SPAIN</span>
+                  </div>
+                  <div class="slider__item" id="item-active">
+                    <img
+                      src="./assets/images/Rectangle24.jpg"
+                      alt="#"
+                      class="slider__image"
+                      id="2"
+                    />
+                    <span class="slider__title">JAPAN</span>
+                  </div>
+                  <div class="slider__item" id="item-right-right">
+                    <img
+                      src="./assets/images/Rectangle25.jpg"
+                      alt="#"
+                      class="slider__image"
+                      id="3"
+                    />
+                    <span class="slider__title">USA</span>
+                  </div>
+                  <div class="slider__item" id="item-left-left">
+                    <img
+                      src="./assets/images/Rectangle23.jpg"
+                      alt="#"
+                      class="slider__image"
+                      id="1"
+                    />
+                    <span class="slider__title">SPAIN</span>
+                  </div>
+                </div>
+              </div>
+              <div class="btn btn-right" id="button-right"></div>
+            </div>
+            <div class="slider-ellipse__container">
+              <label for="item-left" class="slider-ellipse" id="ellipse1"
+                ><span></span
+              ></label>
+              <label
+                for="item-active"
+                class="slider-ellipse active"
+                id="ellipse2"
+                ><span></span
+              ></label>
+              <label for="item-right" class="slider-ellipse" id="ellipse3"
+                ><span></span
+              ></label>
+            </div>
+            <button type="button" class="slider__button box-shadow button">
+              <span class="arrow-right"></span>
+              <p class="button-text">Find More</p>
+            </button>
+          </div>
+        </section>
+        <section class="stories">
+          <h2 class="block__title stories__title" id="stories">
+            TRAVEL STORIES
+          </h2>
+          <div class="stories-container">
+            <div class="stories-container__item">
+              <img
+                src="assets/images/Rectangle29.jpg"
+                class="stories-container__image"
+                alt="Thailand"
+              />
+              <div class="stories-container__text-block">
+                <h3 class="stories-container__title">
+                  10 Photos of Attractive Thailand
+                </h3>
+                <p class="block__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit...
+                </p>
+                <a href="#" class="block__link">Read more</a>
+              </div>
+            </div>
+            <div class="stories-container__item">
+              <img
+                src="assets/images/Rectangle30.jpg"
+                class="stories-container__image"
+                alt="Utah"
+              />
+              <div class="stories-container__text-block">
+                <h3 class="stories-container__title">
+                  Canyonlands National Park, Utah
+                </h3>
+                <p class="block__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit...
+                </p>
+                <a href="#" class="block__link">Read more</a>
+              </div>
+            </div>
+            <div class="stories-container__item">
+              <img
+                src="assets/images/Rectangle31.jpg"
+                class="stories-container__image"
+                alt="Mountains"
+              />
+              <div class="stories-container__text-block">
+                <h3 class="stories-container__title">
+                  I left my heart in the Mountains!
+                </h3>
+                <p class="block__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit...
+                </p>
+                <a href="#" class="block__link">Read more</a>
+              </div>
+            </div>
+            <div class="stories-container__item">
+              <img
+                src="assets/images/Rectangle32.jpg"
+                class="stories-container__image"
+                alt="Longest"
+              />
+              <div class="stories-container__text-block">
+                <h3 class="stories-container__title">
+                  The Longest journey in my life!
+                </h3>
+                <p class="block__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit...
+                </p>
+                <a href="#" class="block__link">Read more</a>
+              </div>
+            </div>
+            <button
+              type="button"
+              class="slider__button box-shadow button stories__button"
+            >
+              <span class="arrow-right"></span>
+              <p class="button-text">See More</p>
+            </button>
+          </div>
+        </section>
+      </main>
+      <footer class="footer" id="footer">
+        <div class="footer-overlay">
+          <div class="footer-container">
+            <div class="footer-link__container">
+              <a href="https://rs.school/js/"
+                ><img
+                  src="assets/icon/rs_school_js.svg"
+                  alt="logotype rs_school"
+                  class="footer-logo"
+              /></a>
+            </div>
+            <p class="author width-920">
+              All Rights Reserved &#169; Travel Portal
+            </p>
+            <div class="footer-link__container">
+              <ul class="social-block" id="social-block">
+                <li>
+                  <a
+                    href="https://vk.com/kolikolga"
+                    target="_blank"
+                    class="footer-link"
+                  >
+                    <img
+                      src="assets/icon/1492718766-vk_83600.svg"
+                      alt="GitHub"
+                      class="vector-img"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/KOLIKOLGA"
+                    target="_blank"
+                    class="footer-link"
+                  >
+                    <img
+                      src="assets/icon/github-logo_icon-icons.com_73546.svg"
+                      alt="GitHub"
+                      class="vector-img"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/rsschool_news/"
+                    class="footer-link"
+                  >
+                    <img
+                      src="assets/icon/akar-icons_instagram-fill.svg"
+                      alt="instagram"
+                      class="vector-img"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/c/RSschool"
+                    class="footer-link"
+                  >
+                    <img
+                      src="assets/icon/akar-icons_video.svg"
+                      alt="video"
+                      class="vector-img"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://twitter.com/rollingscopes"
+                    class="footer-link"
+                  >
+                    <img
+                      src="assets/icon/akar-icons_twitter-fill.svg"
+                      alt="twitter"
+                      class="vector-img"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <form action="#" class="login__modal block__center">
+        <div class="modal__inner">
+          <h2 class="login-title1">Log in to your account</h2>
+          <h2 class="login-title2 hidden">Create account</h2>
+          <div class="sign-block">
+            <div class="sign-block-facebook box-shadow">
+              <img
+                src="assets/icon/Facebook_Logo.svg"
+                alt="Facebook"
+                class="vektor-img"
+              />
+              <span class="sign-block__text">Sign In with Facebook</span>
+            </div>
+            <div class="sign-block-google box-shadow">
+              <img
+                src="assets/icon/Google_Logo.svg"
+                alt="Google"
+                class="vektor-img"
+              />
+              <span class="sign-block__text blue-text"
+                >Sign In with Google</span
+              >
+            </div>
+          </div>
+          <p class="variable-text">or</p>
+          <div class="sign-block__input">
+            <label for="email" class="sign-input__label">E-mail</label>
+            <input type="email" class="sign-input box-shadow" id="email" />
+            <label for="password" class="sign-input__label">Password</label>
+            <input
+              type="password"
+              class="sign-input box-shadow"
+              id="password"
+            />
+            <button class="sign__button box-shadow">
+              <input type="submit" />
+              <p class="button__text">Sign In</p>
+            </button>
+          </div>
+          <button class="forgot">
+            <p class="sign-block-text">Forgot Your Password?</p>
+          </button>
+          <p class="sign-block-text-lite">
+            Don’t have an account?<button class="register">
+              <b>Register</b>
+            </button>
+          </p>
+          <p class="sign-block-text-lite2 hidden">
+            Already have an account?<button class="register-login">
+              <b> Log in</b>
+            </button>
+          </p>
+        </div>
+      </form>
+    </div>
+    <script src="./script.js"></script>
+    <script src="./index.js"></script>
+    <script src="./slider.js"></script>
+  </body>
+</html>
