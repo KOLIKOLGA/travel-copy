@@ -13,8 +13,19 @@ const slider = () => {
   const sliderDotLeft = document.querySelector("#ellipse1");
   const sliderDotRight = document.querySelector("#ellipse3");
   const sliderLine = document.querySelector(".slider-line");
+const sliderItems = document.querySelectorAll(".slider__item");
+
 
   console.log(itemActive.children[0].id);
+
+  let width = 0;
+
+  const init = () => {
+  width = document.querySelector(".slider-container").offsetWidth;
+  sliderLine.style.width = width * sliderItems.length + 60 + "px";
+};
+
+   init();
 
   const moveLeft = () => {
     slider.classList.add("transition-left");
